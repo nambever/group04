@@ -1,0 +1,69 @@
+    /* summary */
+.headlink a{
+  text-decoration: none;
+  color: white;
+}
+section{
+  background-color: rgb(242, 241, 241);
+  padding: 20px;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* REGISTER */
+section{
+  background-image: url("2022-06-01-registry-services-arteriors.jpg");
+}
+.colleft{
+padding-bottom: 300px;
+}
+input[type=text], input[type=email], select{
+width: 100%;
+padding: 8px;
+border: 1px solid lightgray;
+border-radius: 4px;
+resize: vertical;
+}
+select{
+margin-top: 10px;
+}
+input[type=radio]{
+margin-top: 13px;
+padding: 0 20px;
+}
+label {
+padding: 12px 12px 12px 0;
+display: inline-block;
+}
+.container {
+border-radius: 7px;
+padding: 30px 30px;
+margin: 0 300px;
+background-color: white;
+box-shadow: 3px 3px 3px gray;
+}
+.form-group{
+padding-top: 30px;
+}
+.col-25 {
+float: left;
+width: 25%;
+margin-top: 6px;
+}
+.col-75 {
+float: left;
+width: 75%;
+margin-top: 6px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+/* END */
